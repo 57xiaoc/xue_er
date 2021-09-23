@@ -11,6 +11,7 @@ class MyApp extends StatelessWidget{
       home:LoginPage(),
       routes: {
         '/search':(context)=>search(),
+        '/LogPage':(context)=>LoginPage()
       },
     );
   }
